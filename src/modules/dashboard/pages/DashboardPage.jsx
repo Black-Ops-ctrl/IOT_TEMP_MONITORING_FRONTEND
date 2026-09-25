@@ -346,7 +346,7 @@ const DashboardPage = () => {
 
     const interval = setInterval(() => {
       refreshAllData();
-    }, 30000);
+    }, 300000);
 
     return () => clearInterval(interval);
   }, []);

@@ -28,8 +28,8 @@ const LiveReportPage = () => {
   const searchTimeoutRef = useRef(null);
 
   // Auto-refresh interval (in milliseconds)
-  const REFRESH_INTERVAL = 30000; // 30 seconds
-  const SEARCH_DELAY = 500; // 500ms delay for search
+  const REFRESH_INTERVAL = 300000; 
+  const SEARCH_DELAY = 500; 
 
   // ============================================
   // FETCH REGIONS ON MOUNT
